@@ -39,6 +39,9 @@ operator<<(std::ostream& os, NackReason reason)
   case NackReason::NO_ROUTE:
     os << "NoRoute";
     break;
+  case NackReason::INVALID_CERT:
+    os << "InvalidCert";
+    break;
   default:
     os << "None";
     break;
