@@ -133,7 +133,7 @@ NackHeader::getReason() const
   case NackReason::CONGESTION:
   case NackReason::DUPLICATE:
   case NackReason::NO_ROUTE:
-  case NackReasob::INVALID_CERT:
+  case NackReason::INVALID_CERT:
     return m_reason;
   default:
     return NackReason::NONE;
