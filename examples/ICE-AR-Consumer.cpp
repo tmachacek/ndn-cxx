@@ -258,9 +258,9 @@ private:
     
 	system(destroyCom.c_str());	
 	sleep(2);
-	std::cout << "Erasing content store...\n";
-	system("nfdc cs erase /");
-	sleep(2);
+	//std::cout << "Erasing content store...\n";
+	//system("nfdc cs erase /");
+	//sleep(2);
 	//system("nfdc cs erase /");
 	std::cout << "Running autoconfig...\n";
 	run_autoconfig();
